@@ -1,4 +1,4 @@
-ffrom flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 from functools import wraps
 import json, os, re, base64
 
